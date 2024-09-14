@@ -1,0 +1,133 @@
+/* Container Styling */
+.foreign-destinations-page {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  .header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+  }
+  
+.foreign-destinations-page  .header h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-top: 15vh;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Destinations Section */
+  .destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .destination-card {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .destination-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .destination-card h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-top: 10px;
+  }
+  
+  .destination-card p {
+    font-size: 1.1em;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .explore-button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #16a085;
+  }
+  
+  /* Hover Effects */
+  .destination-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 1.2em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .destinations {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .destination-card {
+      width: 90%;
+    }
+  
+    .header h1 {
+      font-size: 2.5em;
+    }
+  
+    .header p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header h1 {
+      font-size: 2em;
+    }
+  
+    .header p {
+      font-size: 0.9em;
+    }
+  
+    .destination-card {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,62 @@
+.homePage{
+    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg);
+    background-size: cover;
+    height: 110vh;
+    width: 100vw;
+    padding: 5rem;
+    position: relative;
+}
+.homePage .h1{
+    margin-top: 17rem;
+    color: #fff;
+    font-family: syne;
+    overflow: hidden;
+    height: 7rem;
+    font-size: 5rem;
+}
+.homePage .h2{
+    color: #fff;
+    font-family: roboto-slob;
+    font-style: italic;
+    overflow: hidden;
+    height: 14rem;
+    font-size: 9rem;
+}
+
+.siteH1Letters{
+    display: inline-block;
+    color: #fff;
+    overflow: hidden;
+}
+.name{
+    position: absolute;
+    width: 72vh;
+    left: 83%;
+    top: 40%;
+    rotate: -90deg;
+    font-size:6rem ;
+
+}
+.siteLetter {
+    display: inline-block;  
+    font-family: syne;
+}
+.moveToTop{
+    
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+}
+.moveButton{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 99999;
+    left: 90%;
+    top: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

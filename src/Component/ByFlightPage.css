@@ -1,0 +1,152 @@
+/* Page Container Styling */
+.by-flight-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  .header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .by-flight-page .header h1 {
+    font-size: 3em;
+    margin-top: 15vh;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Places Section */
+  .places-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  }
+  
+  .place-card {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .place-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .place-card h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-top: 10px;
+  }
+  
+  .place-card p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .explore-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .explore-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Fare Calculator Section */
+  .fare-calculator-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .fare-calculator {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fare-calculator input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    width: 200px;
+  }
+  
+  .fare-calculator button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .fare-calculator button:hover {
+    background-color: #2980b9;
+  }
+  
+  .fare-calculator p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #2c3e50;
+  }
+  
+  /* Route Section */
+  .route-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .route-images img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 1.2em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .places-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .place-card {
+      width: 90%;
+    }
+  }
+  

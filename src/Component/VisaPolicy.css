@@ -1,0 +1,54 @@
+/* src/components/VisaPolicy.css */
+
+.visa-policy {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+ 
+    font-family: Arial, sans-serif;
+}
+
+.visa-policy h1 {
+    text-align: center;
+    margin-bottom: 20px; 
+      margin-top: 20vh;
+}
+
+.intro-text {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.visa-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.visa-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.visa-card:hover {
+    transform: scale(1.05);
+}
+
+.visa-card h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .visa-info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

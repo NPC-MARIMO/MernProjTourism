@@ -1,0 +1,66 @@
+.festival{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.festival>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: gilroy;
+    font-weight: 700;
+    color: #fff;
+    overflow: hidden;
+    font-size: 5rem;
+    text-align: center;
+}
+.festival>h1 span{
+
+    display: inline-block;
+}
+.h1s{
+    font-family: syne;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    height: 17rem;
+    scale : 0.7;
+    transform: translateY(140%);
+    z-index: 7777;
+    text-align: right;
+    transform-origin: 50% 50%;
+    font-size: 13rem;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff4b;
+    overflow: hidden;
+
+}
+.images{
+    position: absolute;
+    height: 50vh;
+    overflow: hidden;
+    width: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.ps{    
+    font-family: syne;
+    font-weight: 700;
+    font-size: 4rem;
+    transform: translateX(20%);
+    overflow: hidden;
+    height: 6rem ;
+    color: #fff;
+}

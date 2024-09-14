@@ -1,0 +1,39 @@
+.crispy{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.crispy .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75vw;
+    gap: 1rem;
+}
+.crispy .container h1{
+    color: #fff;
+    transform: translateY(0);
+    font-family: syne;
+    font-size: 4rem;
+}
+.crispy .container h1.outer{
+    overflow: hidden;
+}
+
+.crispy .bgH1{
+    position: absolute;
+
+}
+.crispy .bgH1 h1{
+    font-size: 15rem;
+    transform: translateY(-35%);
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff4e;
+}
