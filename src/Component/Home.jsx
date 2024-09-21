@@ -9,6 +9,7 @@ import Homepage from './homepage'
 import Book from './Book'
 import Crispy from './Crispy'
 import Festival from './festival'
+import Book2 from './Book2'
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
       <Navbar/>
       {/* <Slider/> */}
       <Homepage/>
-      {/* <Book/> */}
+      {/* <Book2/> */}
+      <Book/>
       <Festival/>
       <Crispy/>
       
